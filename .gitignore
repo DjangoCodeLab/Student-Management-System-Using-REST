@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Static files
+/static/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django migrations
+*.pyc
+*.pyo
+*.pyd
+migrations/
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python egg metadata
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS files
+.DS_Store
+Thumbs.db
